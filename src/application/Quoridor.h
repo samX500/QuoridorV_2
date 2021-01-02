@@ -6,11 +6,8 @@
 #define QUORIDORV_2_QUORIDOR_H
 
 
-#include "Board.h"
-
 class Quoridor {
-    private:
-        Board board;
+
 };
 
 

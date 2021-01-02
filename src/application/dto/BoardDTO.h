@@ -6,7 +6,7 @@
 #define QUORIDORV_2_BOARDDTO_H
 
 
-class BoardDTO {
+struct BoardDTO {
 
 };
 

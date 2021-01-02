@@ -6,7 +6,7 @@
 #define QUORIDORV_2_PLAYERDTO_H
 
 
-class PlayerDTO {
+struct PlayerDTO {
 
 };
 

@@ -6,8 +6,8 @@
 #define QUORIDORV_2_QUORIDORDTO_H
 
 
-class QuoridorDTO {
-
+struct QuoridorDTO {
+    const int x;
 };
 
 
