@@ -6,10 +6,13 @@
 #define QUORIDORV_2_WALL_H
 
 
+#include <vector>
+
 class Wall {
 
 public:
     enum Orientation {horizontal, vertical};
+    std::vector<int> position;
 };
 
 

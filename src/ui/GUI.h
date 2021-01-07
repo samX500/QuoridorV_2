@@ -2,21 +2,23 @@
 // Created by samx500 on 2020-12-30.
 //
 
-#ifndef QUORIDORV_2_CMDINTERFACE_H
-#define QUORIDORV_2_CMDINTERFACE_H
+#ifndef QUORIDORV_2_GUI_H
+#define QUORIDORV_2_GUI_H
 
 #include "../application/dto/QuoridorDTO.h"
 #include "../application/dto/BoardDTO.h"
+#include "SFML/Graphics.hpp"
 
-class CMDInterface {
+class GUI {
 
+    sf::RenderWindow window;
 
 public:
+    GUI();
+
     void showGame(const QuoridorDTO& game);
 
-private:
-    void showBoard(const BoardDTO& board);
 };
 
 
-#endif //QUORIDORV_2_CMDINTERFACE_H
+#endif //QUORIDORV_2_GUI_H

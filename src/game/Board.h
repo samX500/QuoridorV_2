@@ -6,8 +6,15 @@
 #define QUORIDORV_2_BOARD_H
 
 
-class Board {
+#include "Wall.h"
+#include <vector>
 
+class Board {
+    int size;
+    std::vector<Wall> walls;
+
+    public:
+        explicit Board(int size);
 };
 
 

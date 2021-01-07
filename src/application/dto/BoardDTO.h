@@ -8,11 +8,8 @@
 #include <vector>
 #include "../../game/Wall.h"
 
-using vectorOfPosition = std::vector<std::vector<int,int>>;
-
 struct BoardDTO {
-    std::map<Wall::Orientation, vectorOfPosition> walls;
-    int size;
+    std::vector<Wall> walls;
 };
 
 

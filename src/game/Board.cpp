@@ -3,3 +3,7 @@
 //
 
 #include "Board.h"
+
+Board::Board(int size) {
+    this->size = size;
+}

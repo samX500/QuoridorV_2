@@ -95,8 +95,6 @@
  */
 
 int main() {
-    std::cout << "Flat is justice" << std::endl;
-    std::cout << "Sugoi Dekai" << std::endl;
 
     return 0;
 }

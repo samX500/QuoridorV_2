@@ -6,8 +6,16 @@
 #define QUORIDORV_2_QUORIDOR_H
 
 
-class Quoridor {
+#include "../game/Board.h"
+#include "../ui/GUI.h"
 
+class Quoridor {
+    GUI* gui;
+    Board board;
+
+    public:
+        explicit Quoridor(int size);
+        void play();
 };
 
 
