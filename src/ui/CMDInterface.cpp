@@ -5,10 +5,32 @@
 #include "CMDInterface.h"
 
 
-void CMDInterface::showGame(QuoridorDTO game) {
+void CMDInterface::showGame(const QuoridorDTO &game) {
 
+    showBoard(game.board);
 }
 
-void CMDInterface::showBoard(BoardDTO board) {
+/* -----------------------------------
+9 | .   .   .   .   .   .   .   .   . |
+  |                                   |
+8 | .   .   .   .   .   . | .   .   . |
+  |        ------- -------|-------    |
+7 | . | .   .   .   .   . | .   .   . |
+  |   |                               |
+6 | . | .   .   .   .   . | .   2   . |
+  |    -------            |           |
+5 | .   .   . | .   1   . | .   .   . |
+  |           |                       |
+4 | .   .   . | .   .   .   .   .   . |
+  |            -------                |
+3 | .   .   .   .   . | .   .   .   . |
+  |                   |               |
+2 | .   .   .   .   . | .   .   .   . |
+  |                                   |
+1 | .   .   .   .   .   .   .   .   . |
+--|-----------------------------------
+|    1   2   3   4   5   6   7   8   9*/
+
+void CMDInterface::showBoard(const BoardDTO &board) {
 
 }

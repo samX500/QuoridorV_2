@@ -9,11 +9,13 @@
 #include "../application/dto/BoardDTO.h"
 
 class CMDInterface {
+
+
 public:
-    void showGame(QuoridorDTO game);
+    void showGame(const QuoridorDTO& game);
 
 private:
-    void showBoard(BoardDTO board);
+    void showBoard(const BoardDTO& board);
 };
 
 
