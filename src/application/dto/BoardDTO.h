@@ -4,10 +4,15 @@
 
 #ifndef QUORIDORV_2_BOARDDTO_H
 #define QUORIDORV_2_BOARDDTO_H
+#include <map>
+#include <vector>
+#include "../../game/Wall.h"
 
+using vectorOfPosition = std::vector<std::vector<int,int>>;
 
 struct BoardDTO {
-
+    std::map<Wall::Orientation, vectorOfPosition> walls;
+    int size;
 };
 
 

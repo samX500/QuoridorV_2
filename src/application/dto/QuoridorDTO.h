@@ -6,8 +6,11 @@
 #define QUORIDORV_2_QUORIDORDTO_H
 
 
+#include "BoardDTO.h"
+#include "PlayerDTO.h"
+
 struct QuoridorDTO {
-    const int x;
+    BoardDTO board;
 };
 
 
